@@ -183,7 +183,6 @@ bool checkArrays(int A[], int B[], int n) {
 }
 // Better approach: sort + binary search ? O(n log n)
 
-
 /* ===========================
    Q5   Linked List
    =========================== */
