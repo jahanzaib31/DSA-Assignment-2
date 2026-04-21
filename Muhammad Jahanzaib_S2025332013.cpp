@@ -45,7 +45,6 @@ void findMinMax(int arr[], int size, int &minVal, int &maxVal) {
     }
 }
 
-
 /* ===========================
    Q2   Bubble Sort
    =========================== */
@@ -90,7 +89,6 @@ void bubbleSort(int arr[], int n, int &swapCount) {
     }
 }
 
-
 /* ===========================
    Q3   Binary Search
    =========================== */
@@ -126,7 +124,6 @@ int binarySearch(int arr[], int size, int key, int &iterations) {
     }
     return -1;
 }
-
 
 /* ===========================
    Q4   Complexity (Big O)
@@ -263,7 +260,6 @@ public:
     }
 };
 
-
 /* ===========================
    MAIN FUNCTION
    =========================== */
@@ -283,7 +279,6 @@ int main() {
     findMinMax(arr1, 10, minVal, maxVal);
     cout << "Min: " << minVal << " Max: " << maxVal << endl;
 
-
     // Q2
     int arr2[7] = {64,34,25,12,22,11,90};
     cout << "\nBefore Sorting: ";
@@ -294,7 +289,6 @@ int main() {
     bubbleSort(arr2,7,swaps);
     cout << "Total swaps: " << swaps << endl;
 
-
     // Q3
     int arr3[10] = {2,5,8,12,16,23,38,45,56,72};
     int iterations;
@@ -304,7 +298,6 @@ int main() {
 
     result = binarySearch(arr3,10,100,iterations);
     cout << "Not Found Iterations: " << iterations << endl;
-
 
     // Q5
     LinkedList list;
